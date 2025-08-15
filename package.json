@@ -1,14 +1,19 @@
 {
-  "name": "${PROJECT_NAME}",
+  "name": "fsm",
   "version": "1.0.0",
-  "description": "",
+  "author": {
+    "name": "Dmitry Zlygin",
+    "email": "dzlygin@gmail.com"
+  },
+  "description": "simple FSM in TS",
+  "license": "MIT",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc -p tsconfig.json"
   },
   "dependencies": {},
   "devDependencies": {
-    "typescript": "^5.5.3"
-  },
-  "private": true
+    "typescript": "^5.8.3"
+  }
 }
